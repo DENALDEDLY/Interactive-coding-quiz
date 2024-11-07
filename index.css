@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color:  #0D0D0D ;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #F7F8FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#btns-div {
+    background-color: #1A1A1A;
+    color: #D1D1D1;
+}
+
+.divs {
+    height: 100%;
+    width: 100%;
+    margin-inline-start: 6%;
+    margin-top: 3px;
+}
+
+.btns {
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 2%;
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+#front-end-btn {
+    height: 50%;
+    width: 80%;
+    font-size: 18px;
+    background-color: #1E90FF;
+    color: white;
+    border: 2px solid  #3B5998;;
+}
+
+#front-end-btn:hover {
+    background-color: #3B5998;
+}
+
+#back-end-btn {
+    height: 50%;
+    width: 80%;
+    font-size: 18px;
+    background-color: #1E90FF;
+    color: white;
+    margin-top: 2%;
+    border: 2px solid  #3B5998;;
+}
+
+#back-end-btn:hover {
+    background-color: #3B5998 ;
+    /* Darker Blue on hover */
+}
+
+#python-btn {
+    height: 50%;
+    width: 80%;
+    font-size: 18px;
+    background-color: #1E90FF;
+    color: #F5F5F5;
+    margin-top: 2%;
+    border: 2px solid  #3B5998;
+}
+
+
+#python-btn:hover {
+    background-color:  #3B5998; ;
+    /* Darker Blue on hover */
+}
+h4 {
+    color: #1E90FF;
+    font-size: 35px;
+}
